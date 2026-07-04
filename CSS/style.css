@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    font-family: sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.titre-logo{
+    display: flex;
+    flex-direction: row;
+}

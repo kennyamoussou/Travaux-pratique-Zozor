@@ -1,22 +1,41 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: 0px;
-    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+@font-face {
+    font-family: ballpark;
+    src: url(../polices/ballpark.woff);
+}
+
+@font-face {
+    font-family: dayrom;
+    src: url(../polices/dayrom.woff);
+}
+
+
+body{
+    font-family: Ballpark Weiner,sans-serif;
+    font-family: dayrom,serif;
+    background-color: #F7EBCC;
 }
 
 /* header */
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 10px;
+    padding: 20px 100px;
+    border-bottom: 1px solid #760001;
 }
+
 nav ul{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    align-items: center;
+    padding-top: 70px;
 }
 
 nav ul li,a{
@@ -25,7 +44,20 @@ nav ul li,a{
     color: black;
 }
 
-.titre-logo{
-    display: flex;
-    flex-direction: row;
+.titre h1{
+    font-family: ballpark,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* main */
+.banniere{
+    padding: 20px 100px;
+}
+article h2{
+    padding-bottom: 10px;
+}
+article p{
+    padding-bottom: 10px;
+    text-align: justify;
 }

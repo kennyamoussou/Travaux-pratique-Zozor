@@ -82,6 +82,7 @@ nav ul li,a{
     padding: 6px 5px;
     color: white;
     gap: 5px;
+    font-family: Ballpark Weiner,serif;
 }
 .conteneur-articles{
     padding: 0px 80px;
@@ -140,14 +141,62 @@ aside h2{
     text-align: justify;
     padding: 8px 0px;
 }
+
 .text2{
     font-size: 14px;
     text-align: justify;
     padding: 8px 0px;
 }
+
 .icones{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-top: 1px solid #760001;
+}
+
+.tweet{
+    gap: 10px;
+}
+.tweet h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.tweettext{
+    padding: 10px 0px;
+}
+
+.mesphotos h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.img{
+    border: 3px solid black;
+    gap: 10px;
+}
+
+.amis h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.mesamis ul{
+    column-count: 2;
+    gap: 0; 
+}
+
+.mesamis ul li{
+    list-style-type: none;
+    color: red;
 }

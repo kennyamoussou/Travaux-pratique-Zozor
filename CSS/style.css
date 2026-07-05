@@ -56,8 +56,6 @@ nav ul li,a{
 }
 .conteneur-banniere{
     background-image: url(../images/sanfrancisco.jpg);
-    object-fit: cover;
-    mask-repeat: no-repeat;
     height: 250px;
     border-radius: 12px;
     display: flex;
@@ -75,14 +73,17 @@ nav ul li,a{
     color: white;
 }
 .bouton{
-    background-color: red;
+    background-color: #b3352c;  
     display: flex;
     flex-direction: row;
-    border-radius: 7px;
-    padding: 6px 5px;
+    justify-content: center;
     color: white;
     gap: 5px;
     font-family: Ballpark Weiner,serif;
+    padding:8px 16px;
+    border-radius:5px;
+    font: size 15px;
+    letter-spacing:.5px;
 }
 .conteneur-articles{
     padding: 0px 80px;

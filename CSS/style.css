@@ -98,6 +98,8 @@ nav ul li,a{
     flex-direction: row;
     align-items: center;
     height: 430px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #760001;
 }
 
 article{
@@ -163,13 +165,19 @@ aside h2{
     padding-top: 5px;
 }
 
+.ico_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3px;
+}
+
 /* footer */
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 40px 80px;
-    border-top: 1px solid #760001;
 }
 
 .tweet{
@@ -208,3 +216,4 @@ footer{
     list-style-type: none;
     color: red;
 }
+

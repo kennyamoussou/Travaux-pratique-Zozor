@@ -38,7 +38,7 @@ nav ul{
     padding-top: 70px;
 }
 
-nav ul li,a{
+nav ul li, a{
     list-style-type: none;
     text-decoration: none;
     color: black;
@@ -158,14 +158,14 @@ aside h2{
     padding: 8px 0px;
 }
 
-.icones{
+.icons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5px;
 }
 
-.ico_top{
+.icones-top{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -188,11 +188,11 @@ footer{
     padding-bottom: 10px;
 } 
 
-.tweettext{
+.tweet-text{
     padding: 10px 0px;
 }
 
-.mesphotos h1{
+.pictures h1{
     font-size: 22px;
     padding-bottom: 10px;
 }
@@ -202,17 +202,17 @@ footer{
     gap: 10px;
 }
 
-.amis h1{
+.friends h1{
     font-size: 22px;
     padding-bottom: 10px;
 }
 
-.mesamis ul{
+.nos-amis ul{
     column-count: 2;
     gap: 0; 
 }
 
-.mesamis ul li{
+.nos-amis ul li{
     list-style-type: none;
     color: red;
 }
